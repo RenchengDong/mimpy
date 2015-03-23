@@ -162,7 +162,7 @@ class SinglePhase():
 
     def apply_flux_boundary_from_function(self,
                                               boundary_marker, 
-                                              f_function):
+                                              p_function):
         """ Applies static flux (neumann) boundary 
         conditions from function. 
         """
